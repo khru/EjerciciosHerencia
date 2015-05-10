@@ -33,14 +33,14 @@ public class Formato
 	private static final String PATRON_ID_YOOTUBE = "^http://(?:youtu\\.be/|(?:[a-z]{2,3}\\.)?youtube\\.com/watch(?:\\?|#\\!)v=)([\\w-]{11}).*/gi";
 	private static final String PATRON_CORREO = "^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,3})$";
 	private static final String PATRON_USUARIO = "^[a-z\\d_]{4,15}$";
-	private static final String PATRON_CONTRASEÑA = "[A-Z�a-z�0-9%&#_-]{6,18}";
+	private static final String PATRON_CONTRASEÑA = "[A-ZÑa-zñ0-9@%&#_-]{6,18}";
 	private static final String PATRON_CONTRASEÑA2 = "(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\\n])(?=.*[A-Z])(?=.*[a-z]).*$";
-	private static final String PATRON_CONTRASEÑA3 = "((?=.{0,}[A-Z�])(?=.{0,}[a-z�])(?=.{1,}\\d)(?=.{1,}[$*-+&!?%])).{8,16}";
+	private static final String PATRON_CONTRASEÑA3 = "((?=.{0,}[A-ZÑÁÉÍÓÚ])(?=.{0,}[a-zñáéíóú])(?=.{1,}\\d)(?=.{1,}[$*-+&!?%])).{8,16}";
 	private static final String PATRON_CONTRASEÑ4 = "^(?=[^\\d_].*?\\d)\\w(\\w|[!@#$%]){7,20}";
 	private static final String PATRON_TELEFONO = "^\\+?\\d{1,3}?[- .]?\\(?(?:\\d{2,3})\\)?[- .]?\\d\\d\\d[- .]?\\d\\d\\d\\d$";
 	private static final String PATRON_CP = "^([1-9]{2}|[0-9][1-9]|[1-9][0-9])[0-9]{3}$";
 	private static final String PATRON_NIF = "^[0-9]{8}[a-zA-Z]";
-	private static final String PATRON_ID = "^[A-Z�]{3}[0-9]{2}[A-Z]";
+	private static final String PATRON_ID = "^[A-ZÑ]{3}[0-9]{2}[A-Z]";
 	private static final String PATRON_TARJETA = "^((67\\d{2})|(4\\d{3})|(5[1-5]\\d{2})|(6011))(-?\\s?\\d{4}){3}|(3[4,7])\\d{2}-?\\s?\\d{6}-?\\s?\\d{5}$";
 	private static final String PATRON_IP = "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)";
 	private static final String PATRON_IP2 = "^(([1-9]?[0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]).){3}([1-9]?[0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$";
@@ -156,7 +156,7 @@ public class Formato
 //		System.out.println(formatoApellidoValido(apellido2));
 		
 //		
-//		String nombre = "Quijo�e Mancha";
+//		String nombre = "Quijoñe Mancha";
 //		String nombre1 = "Cortazar perez";
 //		String nombrenull = "";
 //		String nombre2 = "Nombre";
