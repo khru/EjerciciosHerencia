@@ -13,7 +13,7 @@ public class Formato
 	private static final String NOMBRE_COMPUESTO_3 = "^(\\p{L}){3,} (\\p{L}){2,} (\\p{L}){2,}";
 	private static final String NOMBRE_COMPUESTO_2 = "^(\\p{L}){3,} (\\p{L}){2,}";
 	private static final String NOMBRE = "^[A-Záéíóúñ][a-záéíóúñ]{2,}";
-	private static final String APELLIDOS = "^[A-Z������](\\p{L}){2,} [A-Záéíóúñ](\\p{L}){2,}";
+	private static final String APELLIDOS = "^[A-Záéíóúñ](\\p{L}){2,} [A-Záéíóúñ](\\p{L}){2,}";
 	private static final String APELLIDO = "^[A-Záéíóúñ][a-záéíóúñ]{2,}";
 	private static final String APELLIDOS_COMPUESTOS = "^[A-Záéíóúñ]((([-])(\\p{L}+))|((\\p{L}+ )((de)(( la)?))( \\p{L}+)))?";
 	
