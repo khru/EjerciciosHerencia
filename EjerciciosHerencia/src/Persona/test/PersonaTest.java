@@ -121,44 +121,44 @@ public class PersonaTest {
 	public void testGetNombre() 
 	{
 		System.out.println("Test del metodo getNombre()\n");
-		System.out.println("Método getNombre todos los parametros correctos ");
-		//Método toString todos los parametros correctos
+		System.out.println("MÃ©todo getNombre todos los parametros correctos ");
+		//MÃ©todo toString todos los parametros correctos
 		//*************************************************************
 		Persona p1 = new Persona("Emmanuel", "Valverde Ramos", "993333333");
 		assertNotNull(p1);
 		System.out.println("El nombre es " + p1.getNombre() + "\n");
 		//*************************************************************
-		System.out.println("Método getNombre todos los parametros null");
+		System.out.println("MÃ©todo getNombre todos los parametros null");
 		Persona p2 = new Persona(null, null, null);
 		assertNotNull(p2);
 		System.out.println("El nombre es " + p2.getNombre() + "\n");
 		//*************************************************************
-		System.out.println("Método getNombre todos los parametros en blanco \"\" ");
+		System.out.println("MÃ©todo getNombre todos los parametros en blanco \"\" ");
 		Persona p3 = new Persona("", "", "");
 		assertNotNull(p3);
 		System.out.println("El nombre es " + p3.getNombre() + "\n");
 		//*************************************************************
-		System.out.println("Método getNombre todos los parametros con espacio \" \" ");
+		System.out.println("MÃ©todo getNombre todos los parametros con espacio \" \" ");
 		Persona p4 = new Persona(" ", " "," ");
 		assertNotNull(p4);
 		System.out.println("El nombre es " + p4.getNombre() + "\n");
 		//*************************************************************
-		System.out.println("Método getNombre con nombre = null apellidos = \" \"");
+		System.out.println("MÃ©todo getNombre con nombre = null apellidos = \" \"");
 		Persona p5 = new Persona(null, " ", "");
 		assertNotNull(p5);
 		System.out.println("El nombre es " + p5.getNombre() + "\n");
 		//*************************************************************
-		System.out.println("Método getNombre con nombre = null apellidos = \"\"");
+		System.out.println("MÃ©todo getNombre con nombre = null apellidos = \"\"");
 		Persona p6 = new Persona(null, "", " ");
 		assertNotNull(p6);
 		System.out.println("El nombre es " + p6.getNombre() + "\n");
 		//*************************************************************
-		System.out.println("Método getNombre con nombre = \"\" apellidos = null");
+		System.out.println("MÃ©todo getNombre con nombre = \"\" apellidos = null");
 		Persona p7 = new Persona("", null, " ");
 		assertNotNull(p7);
 		System.out.println("El nombre es " + p7.getNombre() + "\n");
 		//*************************************************************
-		System.out.println("Método getNombre con nombre = \" \" apellidos = null");
+		System.out.println("MÃ©todo getNombre con nombre = \" \" apellidos = null");
 		Persona p8 = new Persona(" ", null, "");
 		assertNotNull(p8);
 		System.out.println("El nombre es " + p8.getNombre() + "\n");
@@ -173,44 +173,44 @@ public class PersonaTest {
 	public void testGetApellidos() 
 	{
 		System.out.println("Test del metodo getApellidos()\n");
-		System.out.println("Método getApellidos todos los parametros correctos ");
-		//Método toString todos los parametros correctos
+		System.out.println("MÃ©todo getApellidos todos los parametros correctos ");
+		//MÃ©todo toString todos los parametros correctos
 		//*************************************************************
 		Persona p1 = new Persona("Emmanuel", "Valverde Ramos", "965555555");
 		assertNotNull(p1);
 		System.out.println("Los apellidos son " + p1.getApellidos() + "\n");
 		//*************************************************************
-		System.out.println("Método getApellidostodos los parametros null");
+		System.out.println("MÃ©todo getApellidostodos los parametros null");
 		Persona p2 = new Persona(null, null, null);
 		assertNotNull(p2);
 		System.out.println("Los apellidos son " + p2.getApellidos() + "\n");
 		//*************************************************************
-		System.out.println("Método getApellidos todos los parametros en blanco \"\" ");
+		System.out.println("MÃ©todo getApellidos todos los parametros en blanco \"\" ");
 		Persona p3 = new Persona("", "", "");
 		assertNotNull(p3);
 		System.out.println("Los apellidos son " + p3.getApellidos() + "\n");
 		//*************************************************************
-		System.out.println("Método getApellidos todos los parametros con espacio \" \" ");
+		System.out.println("MÃ©todo getApellidos todos los parametros con espacio \" \" ");
 		Persona p4 = new Persona(" ", " "," ");
 		assertNotNull(p4);
 		System.out.println("Los apellidos son " + p4.getApellidos() + "\n");
 		//*************************************************************
-		System.out.println("Método getApellidos con nombre = null apellidos = \" \"");
+		System.out.println("MÃ©todo getApellidos con nombre = null apellidos = \" \"");
 		Persona p5 = new Persona(null, " ", " ");
 		assertNotNull(p5);
 		System.out.println("Los apellidos son " + p5.getApellidos() + "\n");
 		//*************************************************************
-		System.out.println("Método getApellidos con nombre = null apellidos = \"\"");
+		System.out.println("MÃ©todo getApellidos con nombre = null apellidos = \"\"");
 		Persona p6 = new Persona(null, "", "");
 		assertNotNull(p6);
 		System.out.println("Los apellidos son " + p6.getApellidos() + "\n");
 		//*************************************************************
-		System.out.println("Método getApellidos con nombre = \"\" apellidos = null");
+		System.out.println("MÃ©todo getApellidos con nombre = \"\" apellidos = null");
 		Persona p7 = new Persona("", null, null);
 		assertNotNull(p7);
 		System.out.println("Los apellidos son " + p7.getApellidos() + "\n");
 		//*************************************************************
-		System.out.println("Método getApellidos con nombre = \" \" apellidos = null");
+		System.out.println("MÃ©todo getApellidos con nombre = \" \" apellidos = null");
 		Persona p8 = new Persona(" ", null, "");
 		assertNotNull(p8);
 		System.out.println("Los apellidos son " + p8.getApellidos() + "\n");
@@ -225,8 +225,8 @@ public class PersonaTest {
 	public void testSetNombre()
 	{
 		System.out.println("Test del metodo setNombre()\n");
-		System.out.println("Método setNombre todos los parametros correctos ");
-		//Método toString todos los parametros correctos
+		System.out.println("MÃ©todo setNombre todos los parametros correctos ");
+		//MÃ©todo toString todos los parametros correctos
 		//*************************************************************
 		Persona p1 = new Persona();
 		assertNotNull(p1);
@@ -234,37 +234,37 @@ public class PersonaTest {
 		assertEquals(p1.getNombre(), "Persona");
 		System.out.println("El nombre es " + p1.getNombre() + "\n");
 		//*************************************************************
-		System.out.println("Método setNombre todos los parametros null");
+		System.out.println("MÃ©todo setNombre todos los parametros null");
 		Persona p2 = new Persona(null, null, null);
 		assertNotNull(p2);
 		System.out.println("El nombre es " + p2.getNombre() + "\n");
 		//*************************************************************
-		System.out.println("Método setNombre todos los parametros en blanco \"\" ");
+		System.out.println("MÃ©todo setNombre todos los parametros en blanco \"\" ");
 		Persona p3 = new Persona("", "", "");
 		assertNotNull(p3);
 		System.out.println("El nombre es " + p3.getNombre() + "\n");
 		//*************************************************************
-		System.out.println("Método setNombre todos los parametros con espacio \" \" ");
+		System.out.println("MÃ©todo setNombre todos los parametros con espacio \" \" ");
 		Persona p4 = new Persona(" ", " ", " ");
 		assertNotNull(p4);
 		System.out.println("El nombre es " + p4.getNombre() + "\n");
 		//*************************************************************
-		System.out.println("Método setNombre con nombre = null apellidos = \" \"");
+		System.out.println("MÃ©todo setNombre con nombre = null apellidos = \" \"");
 		Persona p5 = new Persona(null, " ", " ");
 		assertNotNull(p5);
 		System.out.println("El nombre es " + p5.getNombre() + "\n");
 		//*************************************************************
-		System.out.println("Método setNombre con nombre = null apellidos = \"\"");
+		System.out.println("MÃ©todo setNombre con nombre = null apellidos = \"\"");
 		Persona p6 = new Persona(null, "", "");
 		assertNotNull(p6);
 		System.out.println("El nombre es " + p6.getNombre() + "\n");
 		//*************************************************************
-		System.out.println("Método setNombre con nombre = \"\" apellidos = null");
+		System.out.println("MÃ©todo setNombre con nombre = \"\" apellidos = null");
 		Persona p7 = new Persona("", null, null);
 		assertNotNull(p7);
 		System.out.println("El nombre es " + p7.getNombre() + "\n");
 		//*************************************************************
-		System.out.println("Método setNombre con nombre = \" \" apellidos = null");
+		System.out.println("MÃ©todo setNombre con nombre = \" \" apellidos = null");
 		Persona p8 = new Persona(" ", null, null);
 		assertNotNull(p8);
 		System.out.println("El nombre es " + p8.getNombre() + "\n");
@@ -279,8 +279,8 @@ public class PersonaTest {
 	public void testSetApellidos() 
 	{
 		System.out.println("Test del metodo setApellidos()\n");
-		System.out.println("Método setApellidos persona1");
-		//Método toString todos los parametros correctos
+		System.out.println("MÃ©todo setApellidos persona1");
+		//MÃ©todo toString todos los parametros correctos
 		//*************************************************************
 		Persona p1 = new Persona();
 		assertNotNull(p1);
@@ -288,49 +288,49 @@ public class PersonaTest {
 		assertEquals(p1.getApellidos(), "Persona Uno");
 		System.out.println("Los apellidos son " + p1.getApellidos() + "\n");
 		//*************************************************************
-		System.out.println("Método setApellidos persona2");
+		System.out.println("MÃ©todo setApellidos persona2");
 		Persona p2 = new Persona();
 		assertNotNull(p2);
 		p2.setApellidos("Persona Dos");
 		assertEquals(p2.getApellidos(), "Persona Dos");
 		System.out.println("Los apellidos son " + p2.getApellidos() + "\n");
 		//*************************************************************
-		System.out.println("Método setApellidos persona3");
+		System.out.println("MÃ©todo setApellidos persona3");
 		Persona p3 = new Persona("", "", "");
 		assertNotNull(p3);
 		p3.setApellidos("Persona Tres");
 		assertEquals(p3.getApellidos(), "Persona Tres");
 		System.out.println("Los apellidos son " + p3.getApellidos() + "\n");
 		//*************************************************************
-		System.out.println("Método setApellidos persona4");
+		System.out.println("MÃ©todo setApellidos persona4");
 		Persona p4 = new Persona(" ", " ", " ");
 		assertNotNull(p4);
 		p4.setApellidos("Persona Cuatro");
 		assertEquals(p4.getApellidos(), "Persona Cuatro");
 		System.out.println("Los apellidos son " + p4.getApellidos() + "\n");
 		//*************************************************************
-		System.out.println("Método setApellidos persona5");
+		System.out.println("MÃ©todo setApellidos persona5");
 		Persona p5 = new Persona(null, " ", " ");
 		assertNotNull(p5);
 		p5.setApellidos("Persona Cinco");
 		assertEquals(p5.getApellidos(), "Persona Cinco");
 		System.out.println("Los apellidos son " + p5.getApellidos() + "\n");
 		//*************************************************************
-		System.out.println("Método setApellidos persona6");
+		System.out.println("MÃ©todo setApellidos persona6");
 		Persona p6 = new Persona(null, "", "");
 		assertNotNull(p6);
 		p6.setApellidos("Persona Seis");
 		assertEquals(p6.getApellidos(), "Persona Seis");
 		System.out.println("Los apellidos son " + p6.getApellidos() + "\n");
 		//*************************************************************
-		System.out.println("Método setApellidos persona7");
+		System.out.println("MÃ©todo setApellidos persona7");
 		Persona p7 = new Persona("", null, null);
 		assertNotNull(p7);
 		p7.setApellidos("Persona Siete");
 		assertEquals(p7.getApellidos(), "Persona Siete");
 		System.out.println("Los apellidos son " + p7.getApellidos() + "\n");
 		//*************************************************************
-		System.out.println("Método setApellidos persona8");
+		System.out.println("MÃ©todo setApellidos persona8");
 		Persona p8 = new Persona(" ", null, null);
 		assertNotNull(p8);
 		p8.setApellidos("Persona Ocho");
@@ -347,44 +347,44 @@ public class PersonaTest {
 	public void testToString() 
 	{
 		System.out.println("Test del metodo toString() \n");
-		System.out.println("Método toString todos los parametros correctos ");
-		//Método toString todos los parametros correctos
+		System.out.println("MÃ©todo toString todos los parametros correctos ");
+		//MÃ©todo toString todos los parametros correctos
 		//*************************************************************
 		Persona p1 = new Persona("Emmanuel", "Valverde Ramos", "665555555");
 		assertNotNull(p1);
 		System.out.println(p1 + "\n");
 		//*************************************************************
-		System.out.println("Método toString todos los parametros null");
+		System.out.println("MÃ©todo toString todos los parametros null");
 		Persona p2 = new Persona(null, null, null);
 		assertNotNull(p2);
 		System.out.println(p2 + "\n");
 		//*************************************************************
-		System.out.println("Método toString todos los parametros en blanco \"\" ");
+		System.out.println("MÃ©todo toString todos los parametros en blanco \"\" ");
 		Persona p3 = new Persona("", "", "");
 		assertNotNull(p3);
 		System.out.println(p3 + "\n");
 		//*************************************************************
-		System.out.println("Método toString todos los parametros con espacio \" \" ");
+		System.out.println("MÃ©todo toString todos los parametros con espacio \" \" ");
 		Persona p4 = new Persona(" ", " ", " ");
 		assertNotNull(p4);
 		System.out.println(p4 + "\n");
 		//*************************************************************
-		System.out.println("Método toString con nombre = null apellidos = \" \"");
+		System.out.println("MÃ©todo toString con nombre = null apellidos = \" \"");
 		Persona p5 = new Persona(null, " ", "");
 		assertNotNull(p5);
 		System.out.println(p5 + "\n");
 		//*************************************************************
-		System.out.println("Método toString con nombre = null apellidos = \"\"");
+		System.out.println("MÃ©todo toString con nombre = null apellidos = \"\"");
 		Persona p6 = new Persona(null, "", " ");
 		assertNotNull(p6);
 		System.out.println(p6 + "\n");
 		//*************************************************************
-		System.out.println("Método toString con nombre = \"\" apellidos = null");
+		System.out.println("MÃ©todo toString con nombre = \"\" apellidos = null");
 		Persona p7 = new Persona("", null," ");
 		assertNotNull(p7);
 		System.out.println(p7 + "\n");
 		//*************************************************************
-		System.out.println("Método toString con nombre = \" \" apellidos = null");
+		System.out.println("MÃ©todo toString con nombre = \" \" apellidos = null");
 		Persona p8 = new Persona(" ", null, "");
 		assertNotNull(p8);
 		System.out.println(p8 + "\n");
@@ -399,7 +399,7 @@ public class PersonaTest {
 	public void testClone() 
 	{
 		System.out.println("Test del metodo clone\n");
-		//Método clone todos los parametros correctos
+		//MÃ©todo clone todos los parametros correctos
 		//*************************************************************
 		System.out.println("Test del metodo clone todo correcto\n");
 		Persona p = new Persona("Emmanuel", "Valverde Ramos", "955555555");
@@ -408,7 +408,7 @@ public class PersonaTest {
 		Persona p1 = p.clone();
 		assertNotNull(p1);
 		System.out.println("Objeto clonado " + p1 + "\n");
-		//Método clone todo null
+		//MÃ©todo clone todo null
 		//*************************************************************
 		System.out.println("Test del metodo clone todo null\n");
 		Persona p2 = new Persona(null, null, null);
@@ -417,7 +417,7 @@ public class PersonaTest {
 		Persona p3 = p2.clone();
 		assertNotNull(p3);
 		System.out.println("Objeto clonado " + p3 + "\n");
-		//Método clone nombre incorrecto
+		//MÃ©todo clone nombre incorrecto
 		//*************************************************************
 		System.out.println("Test del metodo clone nombre = \"\" + apellidos = null\n");
 		Persona p4 = new Persona("", null, null);
@@ -461,44 +461,44 @@ public class PersonaTest {
 	public void testSetTelf() 
 	{
 		System.out.println("Test del metodo setTelef() \n");
-		System.out.println("Método toString todos los parametros correctos ");
-		//Método toString todos los parametros correctos
+		System.out.println("MÃ©todo toString todos los parametros correctos ");
+		//MÃ©todo toString todos los parametros correctos
 		//*************************************************************
 		Persona p1 = new Persona("Emmanuel", "Valverde Ramos", "665555555");
 		assertNotNull(p1);
 		System.out.println(p1 + "\n");
 		//*************************************************************
-		System.out.println("Método toString todos los parametros null");
+		System.out.println("MÃ©todo toString todos los parametros null");
 		Persona p2 = new Persona(null, null, null);
 		assertNotNull(p2);
 		System.out.println(p2 + "\n");
 		//*************************************************************
-		System.out.println("Método toString todos los parametros en blanco \"\" ");
+		System.out.println("MÃ©todo toString todos los parametros en blanco \"\" ");
 		Persona p3 = new Persona("", "", "");
 		assertNotNull(p3);
 		System.out.println(p3 + "\n");
 		//*************************************************************
-		System.out.println("Método toString todos los parametros con espacio \" \" ");
+		System.out.println("MÃ©todo toString todos los parametros con espacio \" \" ");
 		Persona p4 = new Persona(" ", " ", " ");
 		assertNotNull(p4);
 		System.out.println(p4 + "\n");
 		//*************************************************************
-		System.out.println("Método toString con nombre = null apellidos = \" \"");
+		System.out.println("MÃ©todo toString con nombre = null apellidos = \" \"");
 		Persona p5 = new Persona(null, " ", "");
 		assertNotNull(p5);
 		System.out.println(p5 + "\n");
 		//*************************************************************
-		System.out.println("Método toString con nombre = null apellidos = \"\"");
+		System.out.println("MÃ©todo toString con nombre = null apellidos = \"\"");
 		Persona p6 = new Persona(null, "", " ");
 		assertNotNull(p6);
 		System.out.println(p6 + "\n");
 		//*************************************************************
-		System.out.println("Método toString con nombre = \"\" apellidos = null");
+		System.out.println("MÃ©todo toString con nombre = \"\" apellidos = null");
 		Persona p7 = new Persona("", null," ");
 		assertNotNull(p7);
 		System.out.println(p7 + "\n");
 		//*************************************************************
-		System.out.println("Método toString con nombre = \" \" apellidos = null");
+		System.out.println("MÃ©todo toString con nombre = \" \" apellidos = null");
 		Persona p8 = new Persona(" ", null, "");
 		assertNotNull(p8);
 		System.out.println(p8 + "\n");

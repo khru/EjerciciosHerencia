@@ -12,12 +12,12 @@ public class Formato
 	//Nombre y Apellidos(3) o Nombre compuesto
 	private static final String NOMBRE_COMPUESTO_3 = "^(\\p{L}){3,} (\\p{L}){2,} (\\p{L}){2,}";
 	private static final String NOMBRE_COMPUESTO_2 = "^(\\p{L}){3,} (\\p{L}){2,}";
-	private static final String NOMBRE = "^[A-Z������][a-z������]{2,}";
-	private static final String APELLIDOS = "^[A-Z������](\\p{L}){2,} [A-Z������](\\p{L}){2,}";
-	private static final String APELLIDO = "^[A-Z������][a-z������]{2,}";
-	private static final String APELLIDOS_COMPUESTOS = "^[A-Z������]((([-])(\\p{L}+))|((\\p{L}+ )((de)(( la)?))( \\p{L}+)))?";
+	private static final String NOMBRE = "^[A-Záéíóúñ][a-záéíóúñ]{2,}";
+	private static final String APELLIDOS = "^[A-Z������](\\p{L}){2,} [A-Záéíóúñ](\\p{L}){2,}";
+	private static final String APELLIDO = "^[A-Záéíóúñ][a-záéíóúñ]{2,}";
+	private static final String APELLIDOS_COMPUESTOS = "^[A-Záéíóúñ]((([-])(\\p{L}+))|((\\p{L}+ )((de)(( la)?))( \\p{L}+)))?";
 	
-	private static final String IDPROVEEDOR = "[A-Z������]{3}[0-9]{3}";
+	private static final String IDPROVEEDOR = "[A-Záéíóúñ]{3}[0-9]{3}";
 	
 	private static final String TELEFONO = "^\\+?\\d{1,3}?[ ]?\\(?\\d{2,3}\\)?[ ]?\\d\\d\\d[ ]?\\d\\d\\d$";
 	private static final String CORREOE = "^[a-zA-Z0-9-_.\\w]{4,}@[a-z]{4,}.[a-z]{3,}";
@@ -47,7 +47,7 @@ public class Formato
 	private static final String PATRON_IP3 = "(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))";
 	
 	/**
-	 * M�todo de validaci�n de apellidos
+	 * Método de validación de apellidos
 	 * @param apellido
 	 * @return true Si el apellido es valido
 	 * @return false si el apellido es erroneo
@@ -146,7 +146,7 @@ public class Formato
 	
 	public static void main(String[] args)
 	{
-//		String apellido = "Quijo�e de la Mancha";
+//		String apellido = "Quijoñe de la Mancha";
 //		String apellido1 = "Cortazar Perez";
 //		String apellidonull = "";
 //		String apellido2 = "Apellido";

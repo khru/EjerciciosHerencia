@@ -7,7 +7,7 @@ import java.util.Collections;
  * --Tiene que ser validado por un formato (Expresion regular)
  * - Crear un algoritmo de busqueda (ID, nombre y apellidos)
  * - Formatear las entradas en los Setters (Apellidos tratar como 2 apellidos)
- * - Más atributos = Dirección (Tratar la dirección), Telefono (tratar telefono)
+ * - Mï¿½s atributos = Direcciï¿½n (Tratar la direcciï¿½n), Telefono (tratar telefono)
  */
 
 /**
@@ -56,7 +56,7 @@ public class Persona
 
 
 	/**
-	 * Método constructor copia
+	 * MÃ©todo constructor copia
 	 * @param p Parametro de tipo persona
 	 */
 	public Persona(Persona p)
@@ -74,7 +74,7 @@ public class Persona
 	//GET
 	
 	/**
-	 * Método get de nombre
+	 * MÃ©todo get de nombre
 	 * @return nombre
 	 */
 	public String getNombre() 
@@ -83,7 +83,7 @@ public class Persona
 	}
 
 	/**
-	 * Método get de apellidos 
+	 * MÃ©todo get de apellidos 
 	 * @return apellidos
 	 */
 	public String getApellidos() 
@@ -91,7 +91,7 @@ public class Persona
 		return apellidos;
 	}
 	/**
-	 * Método get telf
+	 * MÃ©todo get telf
 	 * @return telf
 	 */
 	public String getTelf() 
@@ -103,7 +103,7 @@ public class Persona
 	//SET
 	
 	/**
-	 * Método set telf
+	 * MÃ©todo set telf
 	 * @param telf
 	 */
 	public void setTelf(String telf) 
@@ -120,7 +120,7 @@ public class Persona
 	
 	
 	/**
-	 * Método set de nombre
+	 * MÃ©todo set de nombre
 	 * @param nombre
 	 */
 	public void setNombre(String nombre) 
@@ -136,7 +136,7 @@ public class Persona
 	}
 
 	/**
-	 * Método set de apellidos
+	 * MÃ©todo set de apellidos
 	 * @param apellidos 
 	 */
 	public void setApellidos(String apellidos) 
@@ -166,7 +166,7 @@ public class Persona
 	//CLONE
 	//*********
 	/**
-	 * Método clone
+	 * MÃ©todo clone
 	 */
 	public Persona clone()
 	{
@@ -218,10 +218,10 @@ public class Persona
 		return true;
 	}
 
-	//MÉTODOS ABSTRACTOS
+	//MÃ©todoS ABSTRACTOS
 	//*******************
 	/**
-	 * Método abstracto
+	 * MÃ©todo abstracto
 	 * @return
 	 */
 	public int comparator()
@@ -230,7 +230,7 @@ public class Persona
 	}
 	
 	/**
-	 * Método abstracto de generación de id
+	 * MÃ©todo abstracto de generaciï¿½n de id
 	 */
 	public String generarId()
 	{

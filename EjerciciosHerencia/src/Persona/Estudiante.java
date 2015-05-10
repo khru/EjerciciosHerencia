@@ -21,7 +21,7 @@ public class Estudiante extends Persona
 	//*********
 	private double evaluacion;
 	
-	//Atriuto añadido para mayor dificultad
+	//Atriuto aï¿½adido para mayor dificultad
 	private GregorianCalendar fechaNacimiento;
 	private String idEstudiante;
 	
@@ -30,7 +30,7 @@ public class Estudiante extends Persona
 	//**************
 	
 	/**
-	 * Método constructor por defecto
+	 * MÃ©todo constructor por defecto
 	 */
 	public Estudiante() 
 	{
@@ -41,7 +41,7 @@ public class Estudiante extends Persona
 	}
 
 	/**
-	 * Método constructor con parametros
+	 * MÃ©todo constructor con parametros
 	 * @param n
 	 * @param a
 	 */
@@ -54,7 +54,7 @@ public class Estudiante extends Persona
 	}
 	
 	/**
-	 * Método constructor copia
+	 * MÃ©todo constructor copia
 	 * @param p
 	 */
 	public Estudiante(Persona p) 
@@ -71,7 +71,7 @@ public class Estudiante extends Persona
 
 	//GET----------------------------------------------------
 	/**
-	 * @return the evaluación
+	 * @return the evaluaciï¿½n
 	 */
 	public double getEvaluaion()
 	{
@@ -96,7 +96,7 @@ public class Estudiante extends Persona
 	
 	//SET----------------------------------------------------
 	/**
-	 * @param evaluacion the evaluación to set
+	 * @param evaluacion the evaluaciï¿½n to set
 	 */
 	public void setEvaluacion(double evaluacion) 
 	{
@@ -122,7 +122,7 @@ public class Estudiante extends Persona
 	//idEstudiante no tiene setter
 	
 	/**
-	 * Método que genera el ID 
+	 * MÃ©todo que genera el ID 
 	 */
 	public String generarId()
 	{
@@ -136,7 +136,7 @@ public class Estudiante extends Persona
 		//Comprobar el formato del id
 		if(util.Formato.formatoIdValido(id.toString()) == false)
 		{
-			//Devolucion de ID_INVALIDO para poder debuggearlo (nunca llegará aqui porque los set de nombre
+			//Devolucion de ID_INVALIDO para poder debuggearlo (nunca llegarï¿½ aqui porque los set de nombre
 			//y apellido gestionan la validez)
 			return "ID_INVALIDO";
 		}
@@ -145,18 +145,18 @@ public class Estudiante extends Persona
 	}
 	
 	/**
-	 * Resetea el id de forma que cuando e nombre o el telefono se actualicen el ID también lo haga
+	 * Resetea el id de forma que cuando e nombre o el telefono se actualicen el ID tambiï¿½n lo haga
 	 */
 	public void resetarIdEstudiante()
 	{
 		this.idEstudiante = generarId();
 	}
-	//OVERRIDE métodos del padre
+	//OVERRIDE MÃ©todos del padre
 	//***************************
 	
 	@Override
 	/**
-	 * Método SetNombre que sobreescribe el de la clase padre
+	 * MÃ©todo SetNombre que sobreescribe el de la clase padre
 	 * @param nombre
 	 */
 	public void setNombre(String nombre)
@@ -167,7 +167,7 @@ public class Estudiante extends Persona
 	
 	@Override
 	/**
-	 * Método SetNombre que sobreescribe el de la clase padre
+	 * MÃ©todo SetNombre que sobreescribe el de la clase padre
 	 * @param nombre
 	 */
 	public void setTelf(String telf)
